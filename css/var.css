@@ -1,0 +1,29 @@
+:root {
+
+    /*KOLORY*/
+    --white: #fff;
+    --whiteDark: #d3d3d3;
+    --black: #000;
+    --background-color1: #ededed;
+    --orange: #ff6832;
+    --orangeDark: #c74c20;
+    --shadow: #66666670;
+    --shadowDark: #2e2e2e;
+    --red: #982237;
+    --blue: #2d4e83;
+    --gray: #535353;
+    --darkgray: #343A40;
+
+    /*FONTY */
+    --h_normal: 32px;
+    --h_less_important: 30px;
+    --p_important: 24px;
+    --p_normal: 14px;
+
+    /*FONTY RESP */
+    --h_normal_resp: 16px;
+    --h_less_important: 30px;
+    --h_important_resp: 20px;
+    --p_important_resp: 14px;
+    --p_normal_resp: 12px
+}

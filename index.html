@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8NL5DHKRH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C8NL5DHKRH');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jesteśmy dziewięcioosobową grupą, która bierze udział w olimpiadzie „Zwolnieni z Teorii” w ramach
+                        projektu społecznego „Explozja Talentów”.
+                        Celem projektu jest stworzenie przyjaznej przestrzeni, która pozwoli wyrażać się młodzieży z
+                        powiatu kępińskiego.
+                        Tworzymy stronę internetową dla wszystkich, utalentowanych, pełnych pasji młodych twórców
+                        będących przyszłością Kępna." />
+    <meta name="keywords"
+        content=" młode talenty, kępno, powiat, powiat kępiński, zsp1kępno, lo1kępno, zsp2kępno, explozjatalentów, explozja, explozja talentów, młodzieży, młodych, telenty, explozja, projekt, olimpiada, zwolnieni z teorii, zwolnienizteorii, projekt społeczny, malarstwo, pisarstwo, muzyka, wokal, fotografia, rękodzieło, szycie na drutach, origami, grafika, grafika3D, 3D, remix" />
+    <meta name="author" content="Patryk Pietrzyk, Damian Baliga" />
+    <meta name="copyright" content="Explozja Talentow" />
+    <link rel="icon" type="image/png" href="img/Logo_kolo.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/var.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Explozja Talentów</title>
+    <style>
+        audio {
+            margin: 20px 0 20px 0;
+            border-radius: 15px;
+        }
+
+        .blok-tlo div img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .oProjekcie .blok-tlo div h2 {
+            color: var(--darkgray);
+            font-size: var(--p_important);
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+
+        .k_zb {
+            border: solid 3px #309f3e;
+        }
+
+        #spacing_h2_top {
+            padding-top: 20px;
+
+        }
+
+        #spacing_h2 {
+            padding-bottom: 20px;
+
+        }
+
+
+        #ukraina2 {
+            margin: 30px;
+        }
+
+        #ukraina {
+            padding: 8px;
+            border: solid 4px rgb(0, 60, 255);
+            border-bottom-color: rgb(255, 196, 0);
+            border-left-color: rgb(255, 196, 0);
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        #ukraina:hover {
+            padding: 8px;
+            border: solid 4px rgb(255, 196, 0);
+            border-bottom-color: rgb(0, 60, 255);
+            border-left-color: rgb(0, 60, 255);
+            border-radius: 15px;
+        }
+
+
+        #blue {
+            color: rgb(0, 60, 255);
+        }
+
+        #yellow {
+            color: rgb(255, 196, 0);
+        }
+
+        .ekipa {
+            margin-top: 0vh;
+        }
+
+        /*
+        .ukraina_opis {
+            max-width: 850px;
+        }
+
+        .blok-tlo div {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        */
+        .talenty {
+            width: 75%;
+        }
+
+
+        @media (orientation: portrait) {
+
+            .oProjekcie .blok-tlo div h2 {
+                font-size: var(--p_normal_resp);
+                margin-top: 0;
+            }
+
+            #spacing_h2_top {
+                padding-top: 5px;
+
+            }
+
+            #spacing_h2 {
+                padding-bottom: 5px;
+
+            }
+
+            .talenty {
+                width: 93%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <video id="background-video" autoplay loop muted poster="img/banner.png">
+            <source src="Zwolnieni720p.mp4" type="video/mp4">
+        </video>
+        <button onclick="copy()" id="copy_button">UDOSTĘPNIJ!</button>
+        <script src="js/share.js"></script>
+        <div class="pasek">
+
+            <h1>Nasza Pasja - Twoje Jutro</h1>
+
+        </div>
+
+    </header>
+
+    <nav>
+
+        <section class="szkoly">
+
+            <a href="#">
+                <div class="logo">
+                    <div class="ex">
+                        <img src="img/LogoET.png" alt="Logo Explozja Talentow" class="etlogo">
+                    </div>
+                    <h2 class="orange">Explozja Talentów</h2>
+                </div>
+            </a>
+
+            <a target="_blank" href="https://www.zsp1kepno.pl/">
+                <div class="zsp1">
+                    <div class="ex">
+                        <img src="img/logo1.png" alt="ZSP nr1 Kępno" class="sklogo">
+                    </div>
+                    <h2 class="red">ZSP1</h2>
+                </div>
+            </a>
+
+            <a target="_blank" href="http://www.lokepno.com.pl/">
+                <div class="lo1">
+                    <div class="ex">
+                        <img src="img/logo.png" alt="LO Kępno" class="sklogo">
+                    </div>
+                    <h2 class="black">LO1</h2>
+                </div>
+            </a>
+
+            <a target="_blank" href="http://www.zsp2.kepno.pl/">
+                <div class="zsp2">
+                    <div class="ex">
+                        <img src="img/logo2.png" alt="ZSP nr 2 Kępno" class="sklogo">
+                    </div>
+                    <h2 class="blue">ZSP2</h2>
+                </div>
+            </a>
+
+        </section>
+
+    </nav>
+
+    <main>
+
+        <section class="zdolni">
+
+
+            <div class="pasek2">
+
+                <h1 class="widow">Projekt Społeczny w ramach olimpiady</h1>
+                <img src="img/zwzt_logo.png" alt="Logo Zwolnieni z Teorii">
+
+            </div>
+
+
+        </section>
+
+        <section class="oProjekcie">
+
+            <div class="blok-tlo">
+                <div>
+                    <h1>Napiszcie do nas !</h1>
+                </div>
+
+                <div>
+                    <h2 id="spacing_h2_top" class="widow">Masz znajomych, chcących pokazać się na tej stronie?</h2>
+                    <h2 class="widow">A może to TY jesteś osobą, której poszukujemy?</h2>
+                    <h2 class="widow">
+                        Śpiewasz? Rysujesz? Dziergasz? Fotografujesz?</h2>
+                    <h2 class="widow"> Wszystkie talenty są u nas mile widziane!</h2>
+                    <h2 class="widow" id="spacing_h2">Wszelkie szczegółowe informacje dotyczące uczestnictwa w
+                        projekcie,
+                        udzielamy w
+                        wiadomościach
+                        prywatnych!
+                        Nie pobieramy żadnych opłat za uczestnictwo w projekcie!
+                    </h2>
+                    <a target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100074887985265"><span>FACEBOOK</span></a>
+                    <a target="_blank" href="https://www.instagram.com/explozja.talentow/"><span>INSTAGRAM</span></a>
+                    <p>E-MAIL KONTAKTOWY: projekt.explozja@gmail.com</p>
+                </div>
+
+
+        </section>
+
+        <section class="oProjekcie">
+
+            <div class="blok-tlo">
+                <div>
+                    <h1 class="widow">AUDYCJA W "Radio SUD"!</h1>
+                </div>
+
+                <div>
+                    <!--
+                    <p class="widow">W związku z panującą sytuacją na wschodzie, zmieniliśmy cel naszej zbiórki.
+                        Cały zdobyty budżet zostanie przeznaczony w pomoc Ukrainie.</p>-->
+                    <audio controls>
+                        <source src="teoria_olipm.mp3" />
+                    </audio>
+
+                </div>
+                <!--
+                <div id="ukraina2">
+                    <a id="ukraina" target="_blank"
+                        href="https://allegrolokalnie.pl/zbiorka/explozja-talentow-promocja-projektu"><span
+                            id="blue">ODNOŚNIK
+                        </span> <span id="yellow"> DO
+                            ZBIÓRKI</span></a>
+                </div>-->
+
+
+        </section>
+
+
+        <section class="filmKino">
+
+            <div>
+
+                <div>
+
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/x6NLlJ4f3vE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="oProjekcie">
+
+            <div class="blok-tlo">
+                <div>
+                    <h1>O Projekcie</h1>
+                </div>
+
+                <div>
+                    <p>Jesteśmy dziewięcioosobową grupą, która bierze udział w olimpiadzie „Zwolnieni z Teorii” w ramach
+                        projektu społecznego „Explozja Talentów”.
+                        Celem projektu jest stworzenie przyjaznej przestrzeni, która pozwoli wyrażać się młodzieży z
+                        powiatu kępińskiego.
+                        Tworzymy stronę internetową dla wszystkich, utalentowanych, pełnych pasji młodych twórców
+                        będących przyszłością Kępna.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="pasek2">
+
+                <h2><span>Galeria Talentów</span></h2>
+
+            </div>
+
+            <div class="talenty">
+
+                <a href="fotografia.html"><img src="img/ikony/aparat.png" alt="Fotografia">
+                    <h1>Fotografia</h1>
+                </a>
+                <a href="rekodzielo.html"><img src="img/ikony/woczka.png" alt="Rękodzieło">
+                    <h1>Rękodzieło</h1>
+                </a>
+                <a href="wokal.html"><img src="img/ikony/mikrofon.png" alt="Mikrofon">
+                    <h1>Wokal</h1>
+                </a>
+                <a href="muzyka.html"><img src="img/ikony/nutka.png" alt="Muzyka">
+                    <h1>Muzyka</h1>
+                </a>
+                <a href="grafika.html"><img src="img/ikony/komputer.png" alt="Malarstwo">
+                    <h1>Grafika</h1>
+                </a>
+                <a href="pisarstwo.html"><img src="img/ikony/pioro.png" alt="Pisarstwo">
+                    <h1>Pisarstwo</h1>
+                </a>
+                <a href="taniec.html"><img src="img/ikony/taniec.png" alt="Taniec">
+                    <h1>Taniec</h1>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="oProjekcie">
+
+            <div class="blok-tlo">
+                <!--
+                <div>
+                    <h1 class="widow">ZBIÓRKA ZOSTAŁA ZAKOŃCZONA</h1>
+                </div>-->
+
+                <div>
+                    <!--
+                    <p class="widow">W związku z panującą sytuacją na wschodzie, zmieniliśmy cel naszej zbiórki.
+                        Cały zdobyty budżet zostanie przeznaczony w pomoc Ukrainie.</p>-->
+                    <img class="k_zb" src="img/k_zb.png" alt="">
+
+                </div>
+                <!--
+                <div id="ukraina2">
+                    <a id="ukraina" target="_blank"
+                        href="https://allegrolokalnie.pl/zbiorka/explozja-talentow-promocja-projektu"><span
+                            id="blue">ODNOŚNIK
+                        </span> <span id="yellow"> DO
+                            ZBIÓRKI</span></a>
+                </div>-->
+
+
+        </section>
+
+        <section class="ekipa">
+            <section>
+
+                <div class="title">
+                    <h1>Poznaj ekipę &#160</h1>
+                    <h1>"<span>Explozji Talentów</span>"!</h1>
+                </div>
+
+                <div class="team">
+                    <div>
+                        <p>Lider Projektu</p>
+                        <img class="profil" src="img/ekipa/Damian.jpg" alt="Damian z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/muzaaakofc/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Damian</h2>
+                        <p>Dział Informatyczny</p>
+                        <h3 class="widow">Cześć! 👋🏻 Mam na imię Damian i jestem jednym ze współtwórców projektu
+                            "Explozja Talentów".
+                            Zajmuję się jego realizacją od strony technicznej - razem z Patrykiem tworzymy witrynę
+                            internetową, na której w przyszłości możesz pojawić się i Ty! Moje zainteresowania to
+                            grafika komputerowa, gry wideo i taniec.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Patryk.jpeg" alt="Patryk z Ezplozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/taki_sobie_typ/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Patryk</h2>
+                        <p>Dział Informatyczny</p>
+                        <h3 class="widow">Hej jestem Patryk! Jako jeden z członków "Explozji Talentów" odpowiadam za
+                            część
+                            informatyczną
+                            i mam za zadanie stworzenie strony internetowej projektu. Robię to razem z Damianem. Oprócz
+                            tego interesuję się programowaniem, Linuxem oraz naprawianiem sprzętu komputerowego.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Ola.jpg" alt="Aleksandra z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/__al11_/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Aleksandra</h2>
+                        <p>Dział Graficzny</p>
+                        <h3 class="widow">Hejka jestem Ola! W projekcie "Explozja Talentów" jestem wielozadaniowa, ale
+                            przede
+                            wszystkim
+                            zajmuję się oprawą graficzną. Moje hobby to łyżwiarstwo, słuchanie muzyki oraz diamond
+                            painting.
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Adam.png" alt="Adam z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/q_max123/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Adam</h2>
+                        <p>Dział Informatyczny</p>
+                        <h3 class="widow">Cześć! Jestem Adam i wraz z resztą chłopaków zajmuję się w projekcie stroną
+                            Informatyczną.
+                            Prywatnie interesuje się programowaniem oraz sztuczną inteligencją.</h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Kamil.png" alt="Kamil z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/k_burzalka/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Kamil</h2>
+                        <p>Dział Informatyczny</p>
+                        <h3 class="widow">Siemka, nazywam się Kamil. Jako jeden z członków Explozji talentów odpowiadam
+                            za część
+                            Informatyczną w projekcie. Byłem też odpowiedzialny za nagrywanie podczas tworzenia reklamy.
+                            Oprócz tego interesuję się samochodami oraz fotografią.</h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Agnieszka.jpg" alt="Agnieszka z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/pozytyvnie/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+
+                        </article>
+                        <h2>Agnieszka</h2>
+                        <p>Dział Graficzny/Socialmedia</p>
+                        <h3 class="widow">Dzień dobry wszystkim!
+                            Mam na imię Agnieszka, w projekcie zajmuję się głównie oprawą graficzną i prowadzeniem
+                            social mediów. W wolnej chwili zajmuję się fotografią i rysunkiem 📸.</h3>
+                    </div>
+
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Ania.jpg" alt="Ania z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/aniabroda/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Ania</h2>
+                        <p>Dział Graficzny</p>
+                        <h3 class="widow">Hej jestem Ania! W naszym projekcie zajmuję się tworzeniem grafik na portale
+                            społecznościowe
+                            i nie tylko. Oprócz tego interesuję się fotografią oraz modą.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Karolina.jpg" alt="Karolina z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/kwartecka/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Karolina</h2>
+                        <p>Dział Graficzny</p>
+                        <h3 class="widow">Hejka! Mam na imię Karolina i jestem jednym z członków w projekcie "Explozja
+                            Talentów". W
+                            projekcie głównie zajmuję się oprawą graficzną oraz pomagam w tworzeniu tekstów. Poza
+                            projektem interesuję się sztuką, kinematografią oraz gamingiem. Mam nadzieję, że pomożemy Ci
+                            w odkryciu swoich własnych, niesamowitych talentów. Chętnie zobaczę, co potrafisz.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>&#160</p>
+                        <img class="profil" src="img/ekipa/Martyna.jpg" alt="Martyna z Explozji Talentów">
+                        <article class="podstawa">
+                            <a target="_blank" href="https://www.instagram.com/orzechowska.mar/">
+                                <img class="profil_social" src="img/instabialy.png" alt="Logo Instagram">
+                            </a>
+                        </article>
+                        <h2>Martyna</h2>
+                        <p>Dział Graficzny</p>
+                        <h3 class="widow">Cześć! Jestem Martyna i w projekcie zajmuję się kwestią graficzną razem z
+                            pozostałymi
+                            dziewczynami z teamu "Explozji Talentów". W czasie wolnym trenuję piłkę ręczną 🤾‍♀️.
+                        </h3>
+                    </div>
+
+                </div>
+
+                <div class="teacher">
+                    <h1 class="widow">Opiekun projektu <span>Iwona Idzikowska</span></h1>
+                </div>
+            </section>
+        </section>
+        <!--
+        <section class="zdolni">
+
+
+            <div class="pasek2" id="partnerzy">
+                <a href="partnerzy.html">
+                    <h1>ZOBACZ <span>PARTNERÓW</span> EXPLOZJI TALENTÓW <span>KLIKNIJ!</span> </h1>
+                </a>
+            </div>
+        -->
+    </main>
+    <footer>
+        <div>
+            <h2>Explozja talentów &copy; | 2022</h2>
+        </div>
+        <div>
+            <div class="social">
+                <h3>znajdź&#160nas&#160na:</h3> <a target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100074887985265"><img src="img/fb1.png"
+                        alt="Facebook Explozji Talentów"></a>
+                <a target="_blank" href="https://www.instagram.com/explozja.talentow/"><img src="img/insta1.png"
+                        alt="Logo Instagram"></a>
+                <div class="wypelniacz"></div>
+                <a target="_blank" href="https://www.zwolnienizteorii.pl/"><img
+                        src="img/zw_obrazy/projekt_realizowany.png" alt="Logo Zwolnieni z Teorii" class="zw"></a>
+            </div>
+        </div>
+        <div>
+            <h4>
+                E-MAIL KONTAKTOWY: projekt.explozja@gmail.com
+            </h4>
+        </div>
+    </footer>
+</body>
+<script src="js/widow_fix.js"></script>
+
+</html>

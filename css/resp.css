@@ -1,0 +1,312 @@
+@media (orientation: portrait) and (max-width:570px) {
+
+    .szkoly>a>div {
+        width: 160px;
+        height: 20vh;
+        margin: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        border-radius: 15px;
+        text-transform: uppercase;
+    }
+
+    .szkoly a div h2 {
+        font-size: 12px;
+    }
+
+    .ex {
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #background-video {
+        display: none;
+    }
+
+    header {
+        background-image: url("../img/bannertelefon.png") no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -6vh;
+    }
+}
+
+@media (orientation: portrait) {
+
+    #background-video {
+        display: none;
+    }
+
+    header {
+        background-image: url("../img/bannertelefon.png");
+        background-color: var(--background-color1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -6vh;
+    }
+
+
+    header>div {
+        position: absolute;
+        width: 40%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+    }
+
+    .pasek button {
+        position: absolute;
+        margin: auto;
+        top: -80px;
+    }
+
+    .pasek {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .pasek>h1 {
+        text-align: center;
+        font-size: var(--h_normal_resp);
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+        position: relative;
+
+    }
+
+    .szkoly {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        top: -10vh;
+    }
+
+    .zdolni {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .pasek2 {
+        padding: 20px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+
+    .pasek2 h1 {
+        margin-top: 10px;
+        font-size: var(--h_normal_resp);
+    }
+
+    .pasek2 h2 {
+        font-size: var(--h_normal_resp);
+    }
+
+    .pasek2 img {
+        height: 6vh;
+    }
+
+    .filmKino div {
+        width: 90%;
+    }
+
+    .oProjekcie .blok-tlo {
+        width: 90%;
+        padding: 1vh 5% 1vh 5%;
+    }
+
+
+    .oProjekcie .blok-tlo div p {
+        font-size: var(--p_normal_resp);
+        margin-top: 0;
+    }
+
+    .oProjekcie .blok-tlo div h2 {
+        font-size: var(--p_normal_resp);
+        margin-top: 0;
+    }
+
+    .oProjekcie .blok-tlo div h1 {
+        font-size: var(--h_normal_resp);
+    }
+
+    #spacing_h2_top {
+        padding-top: 5px;
+
+    }
+
+    #spacing_h2 {
+        padding-bottom: 5px;
+
+    }
+
+    .blok-tlo div a {
+        font-size: var(--h_normal_resp);
+
+    }
+
+    .talenty {
+        width: 93%;
+    }
+
+    .talenty a {
+        flex-basis: 150px;
+    }
+
+    .talenty a h1 {
+        margin-left: 0%;
+        font-size: var(--p_important_resp);
+
+    }
+
+    .ekipa section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5vh 0% 5vh 0%;
+        margin-bottom: 0;
+
+    }
+
+    .title {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team div {
+        width: 80%;
+        margin-bottom: 20px;
+
+    }
+
+    .title h1 {
+        font-size: var(--h_important_resp);
+    }
+
+    .team div h3 {
+        text-align: center;
+        font-size: var(--p_normal_resp);
+    }
+
+    .teacher h1 {
+        font-size: var(--h_important_resp);
+    }
+
+    footer div h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: var(--h_important_resp);
+    }
+
+    footer div h4 {
+        text-align: center;
+        font-size: var(--p_normal_resp);
+    }
+
+    footer div h3 {
+        font-size: var(--p_normal_resp);
+    }
+
+    footer div img {
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .wypelniacz {
+        flex-grow: 0;
+    }
+
+    .zw {
+        height: 10vh;
+        margin-right: auto;
+    }
+
+
+    /*###### PODSTRONY KONTENER TALENTY######*/
+
+    .talent {
+        flex-direction: column;
+    }
+
+    .talent_tlo {
+        width: 90%;
+    }
+
+    .talent_tlo div {
+        justify-content: center;
+    }
+
+    #fbin a {
+        font-size: var(--h_normal_resp);
+    }
+
+    /*TALNETY*/
+    .osoba_tlo {
+        width: 90%;
+    }
+
+    .osoba_tytul h1 {
+        font-size: var(--h_important_resp);
+    }
+
+    .zdjecia div {
+        width: 90%;
+        padding-top: 50.25%;
+    }
+
+    .zdjecia div a {
+        font-size: var(--h_normal_resp);
+    }
+
+    .zdjecia h1 {
+        font-size: var(--h_normal_resp);
+    }
+
+
+
+}
+
+@media (orientation: portrait) and (max-width:355px) {
+    .szkoly {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        top: -10vh;
+    }
+
+    header {
+        background-image: url("../img/bannertelefon.png");
+        background-size: auto 46vh;
+        background-position: center -6vh;
+    }
+
+}
