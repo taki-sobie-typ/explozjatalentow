@@ -1,4 +1,4 @@
-# **Explozjatalentow 💥**
+#**Explozjatalentow 💥**
 ### Projekt społeczny realizowany w ramach olimpiady **ZWZT** (https://zwolnienizteorii.pl)
 
 Link: https://taki-sobie-typ.github.io/explozjatalentow
@@ -6,7 +6,7 @@ Link: https://taki-sobie-typ.github.io/explozjatalentow
 O Projekcie
 Jesteśmy dziewięcioosobową grupą, która brała udział w olimpiadzie „Zwolnieni z Teorii” w ramach projektu społecznego „Explozja Talentów”. Celem projektu było stworzenie przyjaznej przestrzeni, która pozwoła by wyrażać się młodzieży z powiatu kępińskiego. Stworzymy stronę internetową dla wszystkich, utalentowanych, pełnych pasji młodych twórców będących przyszłością Kępna.
 
-### Mój wkład
+###Mój wkład
 Byłem decyzyjną osobą w sprawie strony internetowej i technologii za nią stojącej, jestem odpowiedzialny za większość kodu znajdującego się na stronie.
 Za implementacje między innymi:
 - Szaty graficznej
@@ -17,7 +17,7 @@ Za implementacje między innymi:
 
 Obecnie również odpowiadam za hosting strony
 
-### Technologie:
+###Technologie:
 <p align="left">
   <img alt="HTML5" src="https://custom-icon-badges.demolab.com/badge/HTML5-de611f?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://custom-icon-badges.demolab.com/badge/CSS3-3371ff?style=for-the-badge&logo=css3&logoColor=white" />
