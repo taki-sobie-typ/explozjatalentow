@@ -24,3 +24,4 @@ Obecnie również odpowiadam za hosting strony
   <img alt="JS" src="https://custom-icon-badges.demolab.com/badge/JS-ffe91a?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+
