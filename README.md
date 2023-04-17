@@ -1,23 +1,28 @@
 # Explozjatalentow 💥
-## Projekt społeczny realizowany w ramach olimpiady ZWZT (https://zwolnienizteorii.pl)
+### Projekt społeczny realizowany w ramach olimpiady ZWZT (https://zwolnienizteorii.pl)
 
-Link: https://taki-sobie-typ.github.io/explozjatalentow
+**Link: https://taki-sobie-typ.github.io/explozjatalentow**
 
-### O Projekcie
-Jesteśmy dziewięcioosobową grupą, która brała udział w olimpiadzie „Zwolnieni z Teorii” w ramach projektu społecznego „Explozja Talentów”. Celem projektu było stworzenie przyjaznej przestrzeni, która pozwoła by wyrażać się młodzieży z powiatu kępińskiego. Stworzymy stronę internetową dla wszystkich, utalentowanych, pełnych pasji młodych twórców będących przyszłością Kępna.
+## O Projekcie
+Jesteśmy dziewięcioosobową grupą, która brała udział w olimpiadzie „Zwolnieni z Teorii” w ramach projektu społecznego „Explozja Talentów”. Celem projektu było stworzenie przyjaznej przestrzeni, która pozwoła, by wyrażać się młodzieży z powiatu kępińskiego. Stworzymy stronę internetową dla wszystkich, utalentowanych, pełnych pasji młodych twórców będących przyszłością Kępną.
 
-### Mój wkład
+Grupa składa się z: **Damian, Patryk, Aleksandra, Adam, Kamil, Agnieszka, Ania, Karolina, Martyna.**<br>
+Informacje o poszczególnych uczestnikach bezpośrednio na stronie.
+
+## Mój wkład
 Byłem decyzyjną osobą w sprawie strony internetowej i technologii za nią stojącej, jestem odpowiedzialny za większość kodu znajdującego się na stronie.
 Za implementacje między innymi:
-- Szaty graficznej
-- Responsywności
-- Rozwijanych list
-- Menu udostępniania
-- Innych funkcjonalności JS
+* **Całego stylowania CSS**
+  - Szata graficzna
+  - Responsywność
+* **Funkcjonalności Java Script m.in.**
+  - Rozwijanych list
+  - Menu udostępniania
+* **Większości kodu HTML**
 
-Obecnie również odpowiadam za hosting strony
+**Obecnie również odpowiadam za hosting strony**
 
-### Technologie:
+### Technologie wykorzystane w budowie strony:
 <p align="left">
   <img alt="HTML5" src="https://custom-icon-badges.demolab.com/badge/HTML5-de611f?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://custom-icon-badges.demolab.com/badge/CSS3-3371ff?style=for-the-badge&logo=css3&logoColor=white" />
