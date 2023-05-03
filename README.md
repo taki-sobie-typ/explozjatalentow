@@ -29,3 +29,16 @@ Za implementacje między innymi:
   <img alt="JS" src="https://custom-icon-badges.demolab.com/badge/JS-ffe91a?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+
+<h2 align="center">Strona tytułowa</h2>
+<p align="center">
+ <img src="readmeContent/Zrzut ekranu z 2023-05-03 21-54-10.png" alt="Girl in a jacket" width="800">
+</p>
+<h2 align="center">Galeria talentów</h2>
+<p align="center">
+ <img src="readmeContent/Zrzut ekranu z 2023-05-03 21-54-33.png" alt="Girl in a jacket" width="800">
+</p> 
+<h2 align="center">Sekcja rękodzieło</h2>
+<p align="center">
+ <img src="readmeContent/Zrzut ekranu z 2023-05-03 21-54-52.png" alt="Girl in a jacket" width="800">
+</p>
